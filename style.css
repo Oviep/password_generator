@@ -1,3 +1,33 @@
-/* body {
-    text-align: center;
-} */
+body {
+    background-color: #06283d;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    margin-left: 50px;
+}
+
+.main_1 {
+    color: white;
+}
+
+.main_2 {
+    color:#4adf86;
+    margin-top: -15px;
+}
+
+h4 {
+    color:white;
+    opacity: 0.5;
+    margin-top: -2px;
+}
+
+button {
+    border: none;
+    background-color:#10b981;
+    padding: 9px 15px;
+    border-radius: 5px;
+    color:white;
+}
