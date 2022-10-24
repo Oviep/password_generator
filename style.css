@@ -5,7 +5,7 @@ body {
 .container {
     display: flex;
     align-items: center;
-    height: 500px;
+    height: 700px;
     margin-left: 50px;
 }
 
@@ -30,4 +30,34 @@ button {
     padding: 9px 15px;
     border-radius: 5px;
     color:white;
+}
+
+.underline {
+    margin-top: 40px;
+    border-bottom: 1px solid #003865;
+    width: 420px;
+}
+
+.mini_con {
+    display: flex;
+}
+
+.input1 {
+    border: 4px solid red;
+    width: 150px;
+    padding: 6px 15px;
+     margin-top: 50px;
+     color:white;
+     text-align: center;
+     background-color: #5da7db;
+}
+
+.input2 {
+    border: 4px solid red;
+    width: 150px;
+    padding: 6px 15px;
+     margin-top: 50px;
+     color:white;
+     text-align: center;
+     margin-left: 30px;
 }
