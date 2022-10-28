@@ -1,4 +1,15 @@
-const characters = ["A","B","C","D","E","F","G","H","I","J","K",
+const characters = [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "H",
+  "I",
+  "J",
+  "K",
   "L",
   "M",
   "N",
@@ -80,3 +91,35 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K",
   "?",
   "/",
 ];
+
+const input1 = document.querySelector(".input1");
+let input2 = document.querySelector(".input2");
+
+let passwordLength = 15
+
+function getRandomCharacter() {
+  let random = Math.floor(Math.random() * characters.length)
+  return characters[random]
+}
+
+function getRandomCharacter1() {
+  let random1 = Math.floor(Math.random() * characters.length);
+  return characters[random1];
+}
+
+function generate_password() {
+ 
+  let randomPassword = ""
+   let randomPassword1 = "";
+ 
+  for(let i = 0; i < passwordLength; i++) {
+    
+      randomPassword += getRandomCharacter();
+      randomPassword1 += getRandomCharacter1();
+    }
+            input2.textContent = randomPassword1
+    return input1.textContent = randomPassword;
+    
+  }
+
+
