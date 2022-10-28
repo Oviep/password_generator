@@ -92,7 +92,7 @@ const characters = [
   "/",
 ];
 
-const input1 = document.querySelector(".input1");
+let input1 = document.querySelector(".input1");
 let input2 = document.querySelector(".input2");
 
 let passwordLength = 15
